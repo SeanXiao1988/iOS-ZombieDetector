@@ -5,4 +5,6 @@ iOS Zombie Pointer Detector
 -----
 
 NSString *str = @"111";
+
+
 bool ret = zombie_isZombie(str, [NSString class]);
